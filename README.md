@@ -18,7 +18,9 @@ The programming makes use of several data files that are loaded into either NVRA
 
 4) Lighting.txt - Defines the name of each lighting zone/room and the xpoint ID for each one.
 
-A word document is included that describes these in more detail.
+IMPORTANT - PLEASE NOTE: When you first load the AV program on a processor it will create a folder named AV in NVRAM.  Use the file manager in toolbox to load the data files to this folder.  Then reboot the processor so the AV program can load the data files on startup.  Without doing this the program will not operate properly.
+
+A word document is included that describes the data files in more detail.
 
 As mentioned above the programs make extensive use of crosspoint routing.  Much of the complexity of the routing is hidden from the developer in modules and through use of specifying crosspoint ID's in the data files.  
 
